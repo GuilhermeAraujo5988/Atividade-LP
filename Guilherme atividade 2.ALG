@@ -1,18 +1,18 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "Guilherme AraÃºjo"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 31/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome: caracter
    sexo: caracter
    estadoCivil :caracter
    tempoDeCasada : real
    casada: caracter
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva ("Digite seu nome: " )
    leia ( nome )
 
@@ -30,7 +30,7 @@ Inicio
 
 
 
-   //Solicitando se a moça é casada
+   //Solicitando se a moÃ§a Ã© casada e quanto tempo
 
    se ( sexo = "M" ) ou ( sexo = "m" ) entao
       escreval ("Sexo: Masculino ")
