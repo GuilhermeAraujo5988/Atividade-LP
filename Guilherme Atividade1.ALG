@@ -1,26 +1,26 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "Guilherme AraÃºjo do Carmo"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Guilherme AraÃºjo do Carmo 
 // Data atual  : 31/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numeroA: real
    numeroB : real
    numeroC:real
    soma: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   escreva ("Digite o Número A: ")
+   escreva ("Digite o NÃºmero A: ")
    leia ( numeroA )
 
-   escreva ("Digite o Número B:")
+   escreva ("Digite o NÃºmero B:")
    leia ( numeroB )
 
-   escreva ("Digite o Número C:")
+   escreva ("Digite o NÃºmero C:")
    leia ( numeroC )
 
    limpatela
@@ -29,25 +29,25 @@ Inicio
 
    soma <- numeroA + numeroB
 
-   //executando dados do usuário
+   //executando dados do usuÃ¡rio
 
-   escreval ( "Número A: ", numeroA )
-   escreval ( "Número B: ", numeroB )
-   escreval ( "Número C: ", numeroC )
+   escreval ( "NÃºmero A: ", numeroA )
+   escreval ( "NÃºmero B: ", numeroB )
+   escreval ( "NÃºmero C: ", numeroC )
 
    // SE e SENAO
 
 
    se ( soma > numeroC ) entao
-      escreval (" A soma é maior que C" )
+      escreval (" A soma Ã© maior que C" )
    fimse
 
    se ( soma = numeroC) entao
-      escreval (" A soma é igual a C ")
+      escreval (" A soma Ã© igual a C ")
    fimse
 
    se ( soma < numeroC ) entao
-      escreval (" A soma é menor que C " )
+      escreval (" A soma Ã© menor que C " )
    fimse
    
    
