@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 01/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome: caracter
    quantidade: inteiro
    precoUnitario: real
@@ -14,14 +14,14 @@ Var
    total: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva ( "Digite a descrição do produto ( nome ): " )
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreva ( "Digite a descriÃ§Ã£o do produto ( nome ): " )
    leia ( nome )
 
    escreva ( "Digite a quantidade adquirida: " )
    leia ( quantidade )
 
-   escreva ( "Digite o preço unitário: " )
+   escreva ( "Digite o preÃ§o unitÃ¡rio: " )
    leia ( precoUnitario )
 
    //Calculando
@@ -42,7 +42,7 @@ Inicio
 
 totalApagar <- total - desconto
 
-limpatela ]
+limpatela 
 
 escreval ("Produto: ", nome )
 escreval ("")
