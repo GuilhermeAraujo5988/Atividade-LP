@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Guilherme AraÃºjo do Carmo
 // Data atual  : 04/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    combustivel: caracter
    litroAlcool: real
    litroGasolina: real
@@ -15,7 +15,7 @@ Var
    total: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    litroAlcool <- 3.79
    litroGasolina <- 6.59
 
@@ -23,12 +23,12 @@ Inicio
    escreval ("DIGITE COM LETRA MAIUSCULA")
    escreval ("")
 
-   //Pergunta ao úsuario
+   //Pergunta ao Ãºsuario
 
    escreva ("litros vendidos: " )
    leia ( litros )
 
-   escreva ("Tipo de combustivel ( A - álcool, G - gasolina): " )
+   escreva ("Tipo de combustivel ( A - Ã¡lcool, G - gasolina): " )
    leia (combustivel)
 
    escreval ("")
