@@ -1,25 +1,25 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    :Guilherme AraÃºjo do Carmo
 // Data atual  : 04/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    rendaMensal: real
    valorEmprestimo: real
    valorPrestacaoMaximo: real
    numPrestacoes: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva ("Digite a renda mensal do solicitante: " )
    leia ( rendaMensal )
 
-   escreva ("Digite o valor total do empréstimo solicitado " )
+   escreva ("Digite o valor total do emprÃ©stimo solicitado " )
    leia ( valorEmprestimo )
 
-   escreva ("Digite o número de prestações desejado:" )
+   escreva ("Digite o nÃºmero de prestaÃ§Ãµes desejado:" )
    leia ( numPrestacoes )
 
    //Executando dados
@@ -29,18 +29,18 @@ Inicio
 
    escreval ("Renda mensal: ", rendaMensal )
    escreval ("Emprestimo solicitado: ", valorEmprestimo )
-   escreval ("Número de prestações: ", numPrestacoes )
+   escreval ("NÃºmero de prestaÃ§Ãµes: ", numPrestacoes )
 
 
-  //Conclusão do valor do emprestimo
+  //ConclusÃ£o do valor do emprestimo
   
   
    valorPrestacaoMaximo <- 0.3 * rendaMensal
 
    se (valorEmprestimo <= 10 * rendaMensal )  e ( valorEmprestimo / numPrestacoes ) <= valorPrestacaoMaximo entao
-      escreva ("Empréstimo concedido." )
+      escreva ("EmprÃ©stimo concedido." )
    senao
-      escreva ("Emprestimo não concedido. " )
+      escreva ("Emprestimo nÃ£o concedido. " )
    fimse
 
 
